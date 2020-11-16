@@ -1,7 +1,18 @@
-* {
-	box-sizing: border-box;
+body {
+	background-color: #DCDCDC;
 }
-a:visited {
-	color: black;
-	text-decoration: none;
+a, a:visited {
+	color: #696969;
+}
+.book-number, h3 {
+	text-align: center;
+}
+h3 {
+	color: #9760A3;
+}
+p {
+	color: #211524;
+}
+#note_1, #note_2, #note_3, #note_4, #note_5 {
+	font-weight: bold;
 }
