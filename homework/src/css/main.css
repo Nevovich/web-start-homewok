@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	height: 100vh;
+	background-color: #f6f6f6;
+	display: flex;
+	align-items: center;
+}
+.item_card {
+	border: 1px solid #ebebeb;
+	background-color: #fff;
+	padding: 64px 47px;
+	max-width: 1010px;
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.item_card img {
+	padding-right: 99px;
+	height: 100%;
+}
+.item_content {
+	font-family: "Roboto";
+}
+.price {
+	margin-top: 55px;
+}
+.price-value {
+	display: block;
+	margin-top: 18px;
+	font-weight: bold;
+	font-size: 30px;
+	margin-bottom: 57px;
+}
+.button {
+	color: #fff;
+	background-color: #ec744a;
+	border: 0;
+	padding: 16px 39px;
+}
